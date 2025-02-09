@@ -1,40 +1,40 @@
 # Charm School App
 
-Charm School App adalah aplikasi portal sekolah yang dibangun menggunakan Flutter untuk frontend dan RESTful API berbasis PHP Native untuk backend. Aplikasi ini memungkinkan murid untuk melihat informasi tentang sekolah, sementara admin memiliki kemampuan untuk mengelola data informasi sekolah seperti informasi, agenda, dan galeri.
+Charm School App is a school portal application built using Flutter for the frontend and a PHP Native-based RESTful API for the backend. This application allows students to view information about the school, while the admin has the ability to manage school information data such as information, agendas, and galleries.
 
-## Fitur
+## Features
 
-- **User/Murid**: Dapat melihat data sekolah yang meliputi:
-  - **Informasi**: Berita atau pengumuman terkait sekolah.
-  - **Agenda**: Jadwal acara atau kegiatan sekolah.
-  - **Galeri**: Kumpulan foto dan dokumentasi kegiatan sekolah.
-- **Admin**: Memiliki hak akses untuk melakukan CRUD (Create, Read, Update, Delete) pada data:
-  - **Informasi**
+- **User/Student**: Can view school data which includes:
+  - **Information**: News or announcements related to the school.
+  - **Agenda**: Schedule of school events or activities.
+  - **Gallery**: Collection of photos and documentation of school activities.
+- **Admin**: Has access rights to perform CRUD (Create, Read, Update, Delete) on data:
+  - **Information**
   - **Agenda**
-  - **Galeri**
+  - **Gallery**
     
-## Akun Demo
+## Demo Accounts
 
-- **Akun Admin**:
+- **Admin Account**:
   - Username: `petugas`
   - Password: `petugas123`
-- **Akun User/Murid**:
+- **User/Student Account**:
   - Username: `user`
   - Password: `user123`
 
-## Teknologi yang Digunakan
+## Technologies Used
 
 - Frontend: **Flutter**
 - Backend: **PHP Native** (RESTful API)
 
-## Instalasi
+## Installation
 
-1. **Clone repository ini**:
+1. **Clone this repository**:
    ```bash
-   git clone https://github.com/Resky89/charm-schoolapp.git
+   git clone https://github.com/Resky89/charm-school-app.git
    ```
 
-2. **Navigasi ke direktori proyek**:
+2. **Navigate to the project directory**:
    ```bash
    cd charm-school-app
    ```
@@ -44,17 +44,17 @@ Charm School App adalah aplikasi portal sekolah yang dibangun menggunakan Flutte
    flutter pub get
    ```
 
-## Menjalankan Aplikasi
+## Running the Application
 
-1. **Jalankan aplikasi di emulator atau perangkat fisik**:
+1. **Run the application on an emulator or physical device**:
    ```bash
    flutter run
    ```
 
 ## Download APK
 
-Anda dapat mengunduh versi terbaru APK Charm School App melalui tautan berikut:
+You can download the latest version of the Charm School App APK from the following link:
 
 [Download Charm School App APK](https://github.com/Resky89/charm-school-app/raw/refs/heads/main/charm_school_apk.zip)
 
-Pastikan untuk mengaktifkan "Izinkan instalasi dari sumber tidak dikenal" di pengaturan perangkat Android Anda sebelum menginstal APK.
+Make sure to enable "Allow installation from unknown sources" in your Android device settings before installing the APK.
